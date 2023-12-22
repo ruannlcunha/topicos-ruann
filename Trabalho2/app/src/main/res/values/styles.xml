@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light" >
+        <!--   Primary Color -->
+        <item name="colorPrimary">@color/green</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/green</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/green</item>
+    </style>
+</resources>

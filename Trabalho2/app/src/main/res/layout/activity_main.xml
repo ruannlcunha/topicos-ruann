@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#4E9460"
+    android:onClick="onInic"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/bemVindoText"
+        android:layout_width="242dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="164dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Bem Vindo"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cadastrarButton"
+        android:layout_width="276dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="68dp"
+        android:onClick="onIniciarCadastro"
+        android:text="Cadastrar"
+        android:textColorHighlight="#2A7A2D"
+        android:backgroundTint="@color/green"
+        android:textColorLink="#4CAF50"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bemVindoText" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="277dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="68dp"
+        android:onClick="onIniciarLogin"
+        android:backgroundTint="@color/green"
+        android:text="Login"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastrarButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
